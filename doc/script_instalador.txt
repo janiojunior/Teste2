@@ -1,0 +1,11 @@
+jpackage --input ./target/ \
+  --name Instalador \
+  --app-version "2023.1" \
+  --icon ./target/"sicap_municipal.icns" \
+  --copyright "2023 TCE - TO - Todos os direitos reservados." \
+  --main-jar Teste2.jar \
+  --main-class blah.Teste \
+  --type dmg \
+  --java-options '--enable-preview' \
+  --jlink-options \
+  --bind-services
